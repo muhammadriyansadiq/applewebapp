@@ -1,0 +1,672 @@
+.list{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(153, 153, 153);
+    height: 36px;
+}
+.list:hover{
+    cursor: pointer;
+    /* color: blue; */
+    background-color: white;
+}
+.container{
+    background-color: black;
+
+}
+.firstpic{
+position: relative;
+}
+.firstpara{
+color: white;
+/* position: absolute;
+top: 0; */
+text-align: center;
+margin-top: 55px;
+font-size: 55px;
+}
+.thirddpara{
+    color: black;
+/* position: absolute;
+top: 0; */
+text-align: center;
+margin-top: 55px;
+font-size: 55px;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.secondpara{
+    color: white;
+    text-align: center;
+    font-size: 45px;
+}
+.fifthpara{
+    color: black;
+    text-align: center;
+    font-size: 45px;
+}
+.thirdpara{
+    display: flex;
+    color: white;
+    justify-content: center;
+    font-size: 25px;
+}
+.sixthpara{
+    display: flex;
+   
+    justify-content: center;
+    font-size: 25px;
+}
+#greater{
+    font-size: 17px;
+
+   margin-left: 8px;
+   color: rgb(15, 56, 236);
+}
+.firstlink{
+    color: rgb(17, 58, 240);
+    text-decoration: none;
+}
+.firstlink:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.fourthpara{
+    margin-left: 24px;
+    color: rgb(21, 61, 241);
+    text-decoration: none;
+}
+
+.fourthpara:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.firstfig{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.fourthpara:hover{
+    cursor: pointer;
+}
+.firstimg{
+    height: 390px;
+}
+
+.secondimg{
+    height: 390px;
+    margin-top: 26px;
+
+}
+.thirdimg{
+    width: 100%;  
+}
+.secondcontainer{
+    /* height: 390px; */
+    background-color:white;
+}
+.thirdcontainer{
+    position: relative;
+}
+
+.firstabsoluteelement{
+position: absolute;
+color: white;
+/* border: 2px solid green; */
+height: 50px;
+width: 250px;
+font-size: 25px;
+top: 297px;
+left: 362px;
+}
+
+.secondabsoluteelemnt{
+    position: absolute;
+    color: rgb(255, 230, 0);
+    top: 336px;
+    left: 344px;
+    font-size: 35px;
+}
+
+.thirdabsoluteelement{
+    position: absolute;
+    top: 416px;
+    color: white;
+    font-size: 23px;
+    left: 272px;
+}
+.fourthabsoluteelement{
+    display: flex;
+    position: absolute;
+    top: 466px;
+    left:250px;
+    
+}
+
+.fourthpage{
+    display: flex;
+    justify-content: space-between;
+  
+}
+
+.fourthleftpage{
+  border: 3ox solid green;
+    width: 50%;
+    height: 500px;
+    
+    margin-right: 5px;
+    position: relative;
+}
+
+.fourthrightpage{
+    
+    width: 50%;
+    height: 500px;
+   
+position: relative;
+}
+.fourthrightinsideabsolute{
+    position: absolute;
+    bottom: 67px;
+    left: 51px;
+}   
+
+.applevision{
+    display: flex;
+    margin-left: 16px;
+    /* display: flex; */
+    justify-content: center;
+}
+.apllelink{
+    color: blue;
+    margin-right: 5px;
+    font-size: 21px;
+    text-decoration: none;
+}
+
+.apllelink:hover{
+text-decoration: underline;
+cursor: pointer;
+
+}
+.computing{
+
+    display: flex;
+    justify-content: center;
+}
+
+.aplleabsoluteelement{
+
+display: flex;
+justify-content: center;
+
+}
+
+.Available{
+    display: flex;
+    justify-content: center;
+}
+
+#applegreat{
+    color: blue;
+}
+.applevisionpara{
+    width: 53%;
+    font-size: 26px;
+}
+.us{
+    font-size: 25px;
+}
+.metaimg{
+
+    height: 500px;
+    width: 100%;
+}
+.MacBook{
+    font-size: 38px;
+    position: absolute;
+    top: 96px;
+    left: 127px
+;
+}
+
+.vision{
+    font-size: 50px;
+}
+.fifthabsoluteelement{
+    position: absolute;
+    top: 221px;
+    left: 132px;
+}
+#fifthanchor{
+    color: rgb(4, 20, 202);
+}
+
+#fifthanchorr{
+    color: rgb(4, 20, 202);
+    margin-left: 5px;
+}
+
+#apllelogo{
+    font-size: 55px;
+}
+.fourthimg{
+    position: absolute;
+    height: 254px;
+    bottom: 0;
+    left: 69px;
+}
+
+.macbookpara{
+    position: absolute;
+    font-size: 25px;
+    left: 113px;
+    top: 154px;
+}
+
+
+
+.thirdlink{
+    font-size: 25px;
+    margin-left: 55px;
+    margin-right: 9px;
+    color:white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+.thirdlink:hover{
+text-decoration: underline;
+
+}
+
+.fourthlink{
+    text-decoration: none;
+    color: blue;
+    font-size: 22px;
+}
+
+.fourthlink:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+.fifthlink:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.fifthlink{
+    margin-left: 18px;
+    text-decoration: none;
+    color: blue;
+    font-size: 22px;
+}
+
+.applevisionpro{
+
+line-height: 50px;
+
+}
+#great{
+    font-size: 25px;
+    color: white
+}
+
+
+.fifththpage{
+    display: flex;
+    justify-content: space-between;
+}
+
+.watchandipad{
+    display: flex;
+    justify-content: space-between;
+}
+.watchpara{
+    font-size: 35px;
+    color: white;
+}
+
+.ipadfigafterwatch{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+.watch{
+    width: 50%;
+    height: 550px;
+/* background-color: aquamarine; */
+background-color: black;
+position: relative;
+}
+#watchapple{
+    font-size: 39px;
+    color: white;
+}
+.watchright{
+    display: flex;
+    position: absolute;
+    top: 44px;
+    left: 165px;
+}
+.ipad{
+    width: 50%;
+    height: 550px;
+    background-color:rgb(170, 170, 170);
+    margin-left: 5px;
+}
+.seriespara{
+    color: brown;
+}
+.series{
+    position: absolute;
+    top: 91px;
+    left: 211px;
+}
+.leappara{
+color: white;
+
+}
+
+.leap{
+    position: absolute;
+    top: 117px;
+    left: 150px;
+    font-size: 23px;
+}
+
+.watchlink{
+    font-size: 25px;
+    color: blue;
+    margin-left: 10px;
+    text-decoration: none;
+}
+.watchlink:hover{
+text-decoration: underline;
+cursor: pointer;
+
+}
+#watchanchor{
+    font-size: 20px;
+    color:blue ;
+    margin-left: 10px;
+}
+
+
+.watchabsoluteelement{
+    position: absolute;
+    top: 175px;
+    left:135px;
+}
+
+.image{
+    position: absolute;
+    top: 219px;
+    left: 84px
+}
+.watchimg{
+    height: 300px;
+
+}
+.ipad{
+    position: relative;
+}
+
+.ipadtext{
+    font-size: 45px;
+    width: 86%;
+    position: absolute;    
+    top: 27px;
+    left: 54px;
+}
+.ipadtext2{
+    font-size: 24px;
+    position: absolute;
+    top: 145px;
+    left: 92px;
+}
+.ipadlink{
+    font-size: 25px;
+    color: blue;
+    text-decoration: none;
+}
+.ipadlink:hover{
+text-decoration: underline;
+
+}
+#ipadanchor{
+    color: blue;
+}
+.ipadabsoluteelement{
+    position: absolute;
+    top: 185px;
+    left: 158px;
+}
+
+.proandtrade{
+    display: flex;
+    justify-content: space-between;
+}
+
+.leftproandtradein{
+    width: 50%;
+    position: relative;
+    background-color: black;
+    height: 500px;
+    margin-top: 5px;
+}
+.rightproandtradein{
+    width: 50%;
+    position: relative;
+    background-color: black;
+    height: 500px;
+    margin-left: 5px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.leftproandtradeheading{
+    position: absolute;
+    font-size: 56px;
+    left: 109px;
+    top: 15px;
+    color: white;
+}
+.leftproandtradeinlogopara{
+    font-size: 20px;
+    color: white;
+}
+.leftproandtradeinlogo{
+    display: flex;
+    position: absolute;
+    top: 91px;
+    left: 111px;
+}
+
+.leftproandtradeinlogoimg{
+    height: 35px;
+}
+
+.lernandbuy{
+    position: absolute;
+    top: 139px;
+    left: 58px;
+}
+.proandtradelink{
+    font-size: 23px;
+    color: blue;
+    margin-left: 35px;
+    text-decoration: none;
+}
+
+.proandtradelink:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.proandtradefig{
+    position: absolute;
+    bottom: 0px;
+    
+}
+
+.proandtradimage{
+    height: 280px;
+    width: 100%;
+}
+
+#onlytradeapple{
+    color: white;
+    font-size: 35px;
+}
+
+.onlytradeapplepara{
+    color: white;
+    font-size: 35px;
+}
+.onlytraderight{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 25px;
+    left: 159px;
+}
+.onlytradepara{
+    color: white;
+    font-size: 20px;
+}
+.onlytraderightpara{
+    position: absolute;
+    top: 72px;
+    left: 111px;
+}
+.rightlogotext{
+    font-size: 25px;
+    color: blue;
+    text-decoration: none;
+}
+
+#rightanchor{
+color: blue;
+font-size: 21px;
+}
+
+.rightlogo{
+    position: absolute;
+    left: 54px;
+    top: 104px;
+
+}
+.rightlogotext:hover{
+
+    cursor: pointer;
+    text-decoration: underline;
+}
+.rightimg{
+    height: 335px;
+    width: 100%;
+}
+
+.rightfig{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+
+.body {
+    
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+  .slider {
+    margin-top: 7px;
+    position: relative;
+    width: 100%;
+    /* max-width: 800px; */
+    overflow: hidden;
+  }
+  
+  .slides {
+    display: flex;
+    width: 100%;
+  }
+  
+  .slides img {
+    width: 100%;
+    /* height: auto; */
+    height: 500px;
+  }
+  
+  button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .prev {
+    left: 0;
+  }
+  
+  .next {
+    right: 0;
+  }
+
+  footer{
+    background-color: black;
+    color: #f0f0f0;
+  }
+  .contact{
+    /* margin-top: 25px; */
+    text-align: center;
+    font-size: 45px;
+  }
+  .footermobile{
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+  }
+  .video{
+    width: 100%;
+  }
+
+  .footeremail{
+    font-size: 25px;
+    display: flex;
+    justify-content: center; 
+  }
+
+
+  .footeraddrres{
+    font-size: 25px;
+    display: flex;
+    justify-content: center; 
+  }
+
+  .footercompanyaddrres{
+
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+
+  }
